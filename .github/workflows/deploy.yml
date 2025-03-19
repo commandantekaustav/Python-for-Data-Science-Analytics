@@ -34,7 +34,8 @@ jobs:
       - name: Build
         run: |
           mkdir -p dist
-          nr build --base /${{ github.event.repository.name }}/ || exit 1
+          cp index.markdown dist/index.html || true
+          nr build || exit 1
         shell: bash
 
       - name: List dist directory
