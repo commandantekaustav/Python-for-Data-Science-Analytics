@@ -14,7 +14,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@slidev/cli": "^0.42.0",
-    "@slidev/theme-default": "^0.21.0"
+    "@slidev/cli": "^51.4.0",
+    "@slidev/theme-default": "^0.21.2"
   }
 }
