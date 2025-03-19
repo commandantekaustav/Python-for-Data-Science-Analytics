@@ -1,6 +1,9 @@
 ---
-layout: default
+layout: seriph
 ---
+
 # Welcome to Python for Data Science Analytics
 
-[Start the presentation](/slides/1)
+---
+src: ./slides.md
+---
