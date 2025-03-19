@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "slidev",
-    "build": "slidev build --base /Python-for-Data-Science-Analytics/",
+    "build": "slidev build",
     "export": "slidev export",
     "screenshot": "slidev export --format png"
   },
