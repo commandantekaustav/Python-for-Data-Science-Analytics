@@ -32,12 +32,20 @@ jobs:
         run: nci
 
       - name: Build
-        run: nr build --base /${{ github.event.repository.name }}/
+        run: |
+          mkdir -p dist
+          nr build --base /${{ github.event.repository.name }}/ || exit 1
+        shell: bash
+
+      - name: List dist directory
+        run: ls -la dist
+        shell: bash
 
       - name: Setup Pages
         uses: actions/configure-pages@v4
 
-      - uses: actions/upload-pages-artifact@v3
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
         with:
           path: dist
 
