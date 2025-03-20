@@ -1,0 +1,20 @@
+{
+  "name": "python-for-data-science-analytics",
+  "version": "1.0.0",
+  "description": "Python for Data Science Analytics project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "slidev",
+    "build": "slidev build slides.md --base /Python-for-Data-Science-Analytics/ --out dist",
+    "export": "slidev export",
+    "screenshot": "slidev export --format png"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@slidev/cli": "^51.4.0",
+    "@slidev/theme-default": "^0.21.2"
+  }
+}
