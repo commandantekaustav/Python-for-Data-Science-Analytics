@@ -101,50 +101,11 @@ hideInToc: true
 
 ## _Get ready for a hands-on, practical journey to elevate your Python skills to the next level._
 
----
-layout: two-cols
----
 
-<Toc minDepth="1" maxDepth="1" />
 ---
-src: ./contents/segments/session1/s1.md
+src: ./contents/module-1/module1.md
 ---
 
 ---
-src: ./contents/segments/session2/s2.md
----
-
----
-src: ./contents/segments/session3/s3.md
----
-
----
-src: ./contents/segments/session4/s4.md
----
-
----
-src: ./contents/segments/session5/s5.md
----
-
----
-src: ./contents/segments/session6/s6.md
----
-
----
-src: ./contents/segments/session7/s7.md
----
-
----
-src: ./contents/segments/session8/s8.md
----
-
-
----
-src: ./contents/segments/session9/s9.md
----
-
-
-
----
-src: ./contents/segments/additional/virtual_environments_tutorial.md
+src: ./contents/module-2/module2.md
 ---
