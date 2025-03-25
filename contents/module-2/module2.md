@@ -111,3 +111,47 @@ src: ./pages/session-15.md
 ---
 src: ./pages/session-16.md
 ---
+
+---
+src: ./pages/session-17.md
+---
+
+---
+src: ./pages/session-18.md
+---
+
+---
+src: ./pages/session-19.md
+---
+
+---
+src: ./pages/session-20.md
+---
+
+---
+src: ./pages/session-21.md
+---
+
+---
+src: ./pages/session-22.md
+---
+
+---
+src: ./pages/session-23.md
+---
+
+---
+src: ./pages/session-24.md
+---
+
+---
+src: ./pages/session-25.md
+---
+
+---
+src: ./pages/session-26.md
+---
+
+---
+src: ./pages/session-27.md
+---
